@@ -1,0 +1,91 @@
+.Welcome-back {
+  width: 162px;
+  height: 28px;
+  margin: 25px 168px 6px 0;
+  font-family: MarkPro;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--dark-blue-grey);
+}
+
+.Log-in-to-continue {
+  width: 144px;
+  height: 20px;
+  margin: 6px 186px 43px 0;
+  font-family: MarkPro;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--cool-grey-two);
+}
+
+.Rectangle {
+  width: 390px;
+  height: 530px;
+  padding: 35px 30px 63px;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.Login---Web {
+  width: 639px;
+  height: 633px;
+  padding: 63px 127px 99px 122px;
+}
+
+.johnsimpledoco {
+  width: 200px;
+  height: 20px;
+  margin: 43px 189px 10px 0;
+  font-family: MarkPro;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--dark-blue-grey);
+}
+
+.Password {
+  width: 200px;
+  height: 20px;
+  margin: 29px 253px 10px 0;
+  font-family: MarkPro;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--cool-grey);
+}
+
+.Line {
+  width: 330px;
+  height: 1px;
+  margin: 10px 0 29px;
+  border: solid 1px var(--dark-sky-blue);
+}
+
+.Dont-have-an-account {
+  width: 218px;
+  height: 18px;
+  margin: 22px 112px 52px 0;
+  font-family: MarkPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--dark-blue-grey);
+}

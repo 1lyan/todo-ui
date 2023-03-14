@@ -1,0 +1,126 @@
+img.Group {
+  width: 40px;
+  height: 32px;
+  margin: 0 290px 25px 0;
+  object-fit: contain;
+}
+
+.Welcome {
+  width: 106px;
+  height: 28px;
+  margin: 25px 224px 6px 0;
+  font-family: MarkPro;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--dark-blue-grey);
+}
+
+.Sign-up-to-start-using {
+  width: 300px;
+  height: 20px;
+  margin: 6px 30px 43px 0;
+  font-family: MarkPro;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--cool-grey-two);
+}
+
+.Full-Name {
+  width: 200px;
+  height: 20px;
+  margin: 43px 250px 10px 0;
+  font-family: MarkPro;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--cool-grey);
+}
+
+.Email {
+  width: 200px;
+  height: 20px;
+  margin: 29px 285px 10px 0;
+  font-family: MarkPro;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--cool-grey);
+}
+
+.Password {
+  width: 200px;
+  height: 20px;
+  margin: 29px 253px 10px 0;
+  font-family: MarkPro;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--cool-grey);
+}
+
+.Do-have-an-account {
+  width: 195px;
+  height: 18px;
+  margin: 21px 135px 52px 0;
+  font-family: MarkPro;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--dark-blue-grey);
+}
+
+.Rectangle {
+  width: 390px;
+  height: 530px;
+  padding: 35px 30px 63px;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.Line {
+  width: 330px;
+  height: 1px;
+  margin: 10px 0 29px;
+  border: solid 1px var(--dark-sky-blue);
+}
+
+.Sign-Up {
+  width: 61px;
+  height: 20px;
+  font-family: MarkPro;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+}
+
+.Sign-Up---Web {
+  width: 639px;
+  height: 633px;
+  padding: 33px 127px 70px 122px;
+  background-color: #f6f7f8;
+}

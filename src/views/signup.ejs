@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible " content="ie=edge">
+    <title>TODO UI</title>
+    <link rel="stylesheet" href="/stylesheets/signup.css">
+</head>
+<body>
+  <div class="Rectangle">
+    <div>
+      <img src="/images/group.png" class="Group">
+    </div>
+
+    <div>
+      <span class="Welcome">
+        Welcome!
+      </span>
+    </div>
+
+    <div>
+      <span class="Sign-up-to-start-using">
+        Sign up to start using SimpleToDo today.
+      </span>
+    </div>
+
+    <form action="/signup" method="post">   
+        <div class="error-txt"><%= errorMessage %></div>
+        <div class="success-txt"><%= success %></div>
+        
+        <div>
+          <input class="Full-Name" name='fullname' type="text" placeholder="Full Name">
+        </div>
+        <div>
+          <input class="Email" name='email' type="text" placeholder="Email">
+        </div>
+        <div>
+          <input class="Password" name='password' type="password" placeholder="Password">
+        </div>
+        
+        <div class="Do-have-an-account">
+          Do have an account? <a href="/login">Sign In</a>
+          <input type="submit" value="Sign Up">
+        </div>
+    </form>
+  </div>
+</body>
+</html>

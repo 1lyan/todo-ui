@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible " content="ie=edge">
+    <title>TODO UI</title>
+    <link rel="stylesheet" href="/stylesheets/login.css">
+</head>
+<body>
+  <div class="Rectangle">
+    
+    <div>
+      <img src="/images/group.png" class="Group">
+    </div>
+
+    <div>
+        <span class="Welcome-back">
+            Welcome back!
+        </span>
+    </div>
+
+    <div>
+        <span class="Log-in-to-continue">
+            Login to continue
+        </span>
+    </div>
+
+    <form action="/login" method="post">   
+        <div class="error-txt"><%= errorMessage %></div>
+        <div class="success-txt"><%= success %></div>
+        
+        <div>
+          <input class="johnsimpledoco" name='email' type="text" placeholder="Email">
+        </div>
+        <div>
+            <input class="Password" name='password' type="password" placeholder="Password">
+        </div>
+        
+        <div class="Dont-have-an-account">Don't have an account? 
+            <a href="/signup">Sign up</a>
+            <input type="submit" value="Sign In">
+        </div>
+    </form>
+  </div>
+</body>
+</html>
