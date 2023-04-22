@@ -1,5 +1,5 @@
 # todo-ui
-Educational project
+Educational project and a frontend for https://github.com/1lyan/todo
 
 To start application locally:
 
